@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.API", "P3.Challenge.FileSystemApp.API\P3.Challenge.FileSystemApp.API.csproj", "{D36BCED2-6CA8-442F-9A9D-9C253058D023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.Contract", "P3.Challenge.FileSystemApp.Contract\P3.Challenge.FileSystemApp.Contract.csproj", "{3CC1A095-E266-4C16-B64D-AF8DA60601CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.Domain", "P3.Challenge.FileSystemApp.Domain\P3.Challenge.FileSystemApp.Domain.csproj", "{5A28395F-CD80-44D5-B417-DAC4B46DDB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.IOC", "P3.Challenge.FileSystemApp.IOC\P3.Challenge.FileSystemApp.IOC.csproj", "{3D18CEDF-589F-497A-8AC0-E6006BEF923F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.Messaging", "P3.Challenge.FileSystemApp.Messaging\P3.Challenge.FileSystemApp.Messaging.csproj", "{E005485A-E085-4E1D-AD3C-CEFB03F68EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.Model", "P3.Challenge.FileSystemApp.Model\P3.Challenge.FileSystemApp.Model.csproj", "{9A77858F-DC14-41FA-9C66-81E7DA610CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.Repository", "P3.Challenge.FileSystemApp.Repository\P3.Challenge.FileSystemApp.Repository.csproj", "{EDED1B6B-72C4-4D09-875E-FD00326A035B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Challenge.FileSystemApp.Service", "P3.Challenge.FileSystemApp.Service\P3.Challenge.FileSystemApp.Service.csproj", "{12FEB715-4631-41CF-ACC5-C26FD44C5DF4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "P3.Challenge.FileSystemApp.Database", "P3.Challenge.FileSystemApp.Database\P3.Challenge.FileSystemApp.Database.sqlproj", "{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D36BCED2-6CA8-442F-9A9D-9C253058D023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36BCED2-6CA8-442F-9A9D-9C253058D023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36BCED2-6CA8-442F-9A9D-9C253058D023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36BCED2-6CA8-442F-9A9D-9C253058D023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC1A095-E266-4C16-B64D-AF8DA60601CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC1A095-E266-4C16-B64D-AF8DA60601CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC1A095-E266-4C16-B64D-AF8DA60601CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC1A095-E266-4C16-B64D-AF8DA60601CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A28395F-CD80-44D5-B417-DAC4B46DDB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A28395F-CD80-44D5-B417-DAC4B46DDB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A28395F-CD80-44D5-B417-DAC4B46DDB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A28395F-CD80-44D5-B417-DAC4B46DDB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D18CEDF-589F-497A-8AC0-E6006BEF923F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D18CEDF-589F-497A-8AC0-E6006BEF923F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D18CEDF-589F-497A-8AC0-E6006BEF923F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D18CEDF-589F-497A-8AC0-E6006BEF923F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E005485A-E085-4E1D-AD3C-CEFB03F68EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E005485A-E085-4E1D-AD3C-CEFB03F68EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E005485A-E085-4E1D-AD3C-CEFB03F68EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E005485A-E085-4E1D-AD3C-CEFB03F68EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A77858F-DC14-41FA-9C66-81E7DA610CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A77858F-DC14-41FA-9C66-81E7DA610CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A77858F-DC14-41FA-9C66-81E7DA610CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A77858F-DC14-41FA-9C66-81E7DA610CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDED1B6B-72C4-4D09-875E-FD00326A035B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDED1B6B-72C4-4D09-875E-FD00326A035B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDED1B6B-72C4-4D09-875E-FD00326A035B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDED1B6B-72C4-4D09-875E-FD00326A035B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FEB715-4631-41CF-ACC5-C26FD44C5DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FEB715-4631-41CF-ACC5-C26FD44C5DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FEB715-4631-41CF-ACC5-C26FD44C5DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FEB715-4631-41CF-ACC5-C26FD44C5DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD6E7EC-4E06-4B32-8E96-20C2D73CB42F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1BF9D86-C666-4787-A858-1025D1D20436}
+	EndGlobalSection
+EndGlobal

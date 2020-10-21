@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P3.Challenge.FileSystemApp.Domain\P3.Challenge.FileSystemApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
