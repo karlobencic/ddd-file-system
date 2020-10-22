@@ -104,7 +104,8 @@ namespace P3.Challenge.FileSystemApp.Service
                 var files = folders
                     .Where(folder => folder.Files != null)
                     .SelectMany(folder => folder.Files)
-                    .Where(file => file.Name.StartsWith(request.FileName, StringComparison.OrdinalIgnoreCase));
+                    .Where(file => file.Name.StartsWith(request.FileName, StringComparison.OrdinalIgnoreCase))
+                    .Take(10);
 
                 response.Files = files.MapToView(_mapper);
                 response.Success = true;
